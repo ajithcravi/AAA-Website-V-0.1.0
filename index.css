@@ -15,17 +15,23 @@ body {
   padding-right: 5px;
 }
 
+/* Assigning padding top and bottom of the navbar to 0 */
+.navbar--paddingTopAndBottom-0 {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
 /* Logo dimension */
 .navbar-brand__logo--size {
-  max-height: 50px;
-  max-width: 88.9px;
+  max-height: 35px;
+  width: auto;
 }
 
 /* Navigationbar items */
 .nav-item--font--margin {
   font-family: Helvetica !important;
   margin-left: 1em;
-  margin-top: 1.1em;
+  margin-top: 23px;
 }
 
 /* Navigationbar active item */
@@ -39,3 +45,4 @@ body {
 /* .navbar-brand__logo -----> The logo image of the Navigationbar */
 /* .nav-item -----> Each navigation item of the Navigationbar */
 /* .active-nav--color -----> Activated item of the Navigationbar */
+/* .navbar--paddingTopAndBottom-0 -----> The whole Navigatonbar section */
