@@ -23,11 +23,21 @@
       src="https://kit.fontawesome.com/e1e8e053d6.js"
       crossorigin="anonymous"
     ></script>
+    <!-- UIkit CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/uikit@3.2.3/dist/css/uikit.min.css"
+    />
+    <!-- UIkit JS -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.2.3/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.2.3/dist/js/uikit-icons.min.js"></script>
     <!-- Custom stylesheets -->
     <!-- Overall stylesheet -->
-    <link rel="stylesheet" href="index.css" />
-    <!-- Main carousel stylesheet -->
-    <link rel="stylesheet" href="./css/mainCarousel.css" />
+    <link rel="stylesheet" href="../index.css" />
+    <!-- Projects stylesheet -->
+    <link rel="stylesheet" href="../css/projects.css" />
+    <!-- Individual project stylesheet -->
+    <link rel="stylesheet" href="../css/individualProject.css" />
   </head>
   <body>
     <!-- Navigationbar -->
@@ -36,7 +46,7 @@
         class="navbar navbar-expand-md navbar-light ticky-top navbar--paddingTopAndBottom-0"
       >
         <div class="container-fluid">
-          <a class="navbar-brand" href="index.html">
+          <a class="navbar-brand" href="../index.html">
             <img
               class="navbar-brand__logo--size"
               src="https://res.cloudinary.com/dpm4kxo9p/image/upload/v1575700408/AAA_Logo_2019_Final__05-12-19_03_ltn45f.jpg"
@@ -54,30 +64,30 @@
           <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item nav-item--font--margin active">
-                <a
-                  class="nav-link active-nav active-nav--color"
-                  href="index.html"
-                >
+                <a class="nav-link " href="../index.html">
                   Home
                 </a>
               </li>
               <li class="nav-item nav-item--font--margin">
-                <a class="nav-link" href="./pages/projects.html">
+                <a
+                  class="nav-link active-nav active-nav--color"
+                  href="./projects.html"
+                >
                   Projects
                 </a>
               </li>
               <li class="nav-item nav-item--font--margin">
-                <a class="nav-link" href="./pages/about.html">
+                <a class="nav-link" href="./about.html">
                   About
                 </a>
               </li>
               <li class="nav-item nav-item--font--margin">
-                <a class="nav-link" href="./pages/team.html">
+                <a class="nav-link" href="./team.html">
                   Team
                 </a>
               </li>
               <li class="nav-item nav-item--font--margin">
-                <a class="nav-link" href="./pages/contact.html">
+                <a class="nav-link" href="./contact.html">
                   Contact Us
                 </a>
               </li>
@@ -86,39 +96,8 @@
         </div>
       </nav>
     </div>
-
-    <!-- Main carousel -->
-    <div
-      id="carouselExampleIndicators"
-      class="carousel slide"
-      data-ride="carousel"
-    >
-      <ol
-        id="carouselDots"
-        class="carousel-indicators homeCarouselIndicator"
-      ></ol>
-      <div id="carousel-inner" class="carousel-inner"></div>
-      <!-- Carousel arrows -->
-      <a
-        class="carousel-control-prev"
-        href="#carouselExampleIndicators"
-        role="button"
-        data-slide="prev"
-      >
-        <span class="carousel-control-prev-icon " aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a
-        class="carousel-control-next"
-        href="#carouselExampleIndicators"
-        role="button"
-        data-slide="next"
-      >
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
-    </div>
-
+    <!-- Individual projects -->
+    <div id="individualProject" class="individualProject"></div>
     <!-- Bootstrap scripts -->
     <script
       src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
@@ -135,8 +114,9 @@
       integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
       crossorigin="anonymous"
     ></script>
-
-    <!-- Main carousel javascript -->
-    <script src="./js/carousel.js"></script>
+    <!-- Projects javascript -->
+    <script src="../js/projects.js"></script>
+    <!-- Individual project script -->
+    <script src="../js/individualProject.js"></script>
   </body>
 </html>

@@ -1,0 +1,157 @@
+/* Making the container that holds two tiles as a flex container and giving margin */
+.twoProjectRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-left: 2.7%;
+  margin-right: 3.2%;
+}
+
+/* Making the container that holds the image tile same in size to the image */
+.twoProjectTile {
+  margin-bottom: 2%;
+  width: 49%;
+  height: auto;
+}
+
+/* Assigning values to the tile image  */
+.twoProjectRowImage {
+  transition: 0.5s ease;
+}
+
+/* Giving the overlay effect and hiding it by assigning the height to 0 */
+.twoProjectOverlay {
+  position: absolute;
+  right: 0em;
+  left: 0em;
+  bottom: 0em;
+  opacity: 80%;
+  background-color: black;
+  height: 0;
+  transition: 0.5s ease;
+}
+
+/* Assigning value to the project title */
+.twoProjectTitle {
+  display: none;
+}
+
+/* Assigning hovering effects to the tile */
+.twoProjectTile:hover .twoProjectRowImage {
+  cursor: pointer;
+}
+
+.twoProjectTile:hover .twoProjectOverlay {
+  height: 4em;
+}
+
+.twoProjectTile:hover .twoProjectTitle {
+  display: block;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  transition: 0.5s ease;
+}
+
+/* Making the container that holds three tiles as a flex container and giving margin */
+.threeProjectRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-left: 2.7%;
+  margin-right: 3.2%;
+}
+
+/* Making the container that holds the image tile same in size to the image */
+.threeProjectTile {
+  margin-bottom: 2%;
+  width: 32%;
+  height: auto;
+}
+
+/* Assigning values to the tile image */
+.threeProjectRowImage {
+  transition: 0.5s ease;
+}
+
+/* Giving the overlay effect and hiding it by assigning the height to 0 */
+.threeProjectOverlay {
+  position: absolute;
+  right: 0em;
+  left: 0em;
+  bottom: 0em;
+  opacity: 80%;
+  background-color: black;
+  height: 0;
+  transition: 0.5s ease;
+}
+
+/* Assigning value to the project title */
+.threeProjectTitle {
+  display: none;
+}
+
+/* Assigning hovering effects to the tile */
+.threeProjectTile:hover .threeProjectRowImage {
+  cursor: pointer;
+}
+
+.threeProjectTile:hover .threeProjectOverlay {
+  height: 4em;
+}
+
+.threeProjectTile:hover .threeProjectTitle {
+  display: block;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  transition: 0.5s ease;
+}
+
+@media only screen and (max-width: 768px) {
+  .twoProjectTile {
+    width: 90%;
+    height: auto;
+    margin: auto;
+    margin-bottom: 8%;
+  }
+
+  .threeProjectTile {
+    width: 90%;
+    height: auto;
+    margin: auto;
+    margin-bottom: 8%;
+  }
+
+  .twoProjectOverlay {
+    height: 2em;
+  }
+
+  .twoProjectTitle {
+    display: block;
+    color: white;
+    text-align: center;
+  }
+
+  .threeProjectOverlay {
+    height: 2em;
+    color: white;
+    text-align: center;
+  }
+
+  .threeProjectTitle {
+    display: block;
+  }
+}

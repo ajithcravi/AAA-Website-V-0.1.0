@@ -1,0 +1,74 @@
+.team {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin-left: 2.85em;
+  margin-right: 2.85em;
+  margin-bottom: 8%;
+}
+.teamCard {
+  width: 18.5%;
+  margin-top: 2.5%;
+  margin-right: 1.5%;
+  border: none;
+}
+
+.name {
+  margin-bottom: 0em;
+}
+
+.designation {
+  color: #ff0202 !important;
+}
+
+.teamOverlay {
+  position: absolute;
+  right: 0em;
+  left: 0em;
+  bottom: 0em;
+  opacity: 80%;
+  background-color: black;
+  height: 0;
+  transition: 0.5s ease;
+}
+
+.nameAndDesignation {
+  padding: 0em;
+  display: none;
+}
+
+.teamCard:hover .teamOverlay {
+  height: 4.5em;
+}
+.teamCard:hover .nameAndDesignation {
+  display: inherit;
+  position: absolute;
+  color: white;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  transition: 0.5s ease;
+}
+
+@media only screen and (max-width: 700px) {
+  .teamCard {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    margin-bottom: 8%;
+  }
+
+  .teamOverlay {
+    height: 20%;
+  }
+
+  .nameAndDesignation {
+    display: inherit;
+    color: white;
+    margin-left: 5%;
+  }
+}
