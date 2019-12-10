@@ -1,7 +1,25 @@
-.mapDiv {
-  padding-right: 4%;
+.contactCard {
+  width: 100%;
+  height: auto;
+  border: none;
+}
+.submitButton {
+  margin-top: 2.5%;
+  float: right;
+  background-color: white;
+  color: black;
+  border: solid 0.8px #bdbdbd;
 }
 
-.contactDiv {
-  padding-left: 4%;
+.submitButton:hover {
+  background-color: #ff0202;
+  color: #ffffff;
+  border: solid 0.8px #ff0202;
+}
+
+/* Hide the number scroller in input */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }

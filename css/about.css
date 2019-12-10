@@ -1,0 +1,25 @@
+#about {
+  display: flex;
+  flex-direction: row;
+}
+
+#about h1 {
+  width: 150%;
+  padding-left: 17%;
+  padding-top: 20%;
+  color: #ff0202;
+}
+
+#about p {
+  padding-top: 17%;
+  padding-right: 2.5%;
+  text-align: justify;
+  text-indent: 5em;
+}
+
+#vl {
+  border-left: 1px solid #a9a9a9;
+  height: 250px;
+  padding-right: 13%;
+  margin-top: 50%;
+}

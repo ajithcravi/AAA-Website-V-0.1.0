@@ -34,8 +34,8 @@
     <!-- Custom stylesheets -->
     <!-- Overall stylesheet -->
     <link rel="stylesheet" href="../index.css" />
-    <!-- Contact stylesheet -->
-    <link rel="stylesheet" href="../css/contact.css" />
+    <!-- About stylesheet -->
+    <link rel="stylesheet" href="../css/about.css" />
   </head>
   <body>
     <!-- Navigationbar -->
@@ -81,7 +81,10 @@
                 class="nav-item nav-item--font--margin regularnavItems"
                 style="display: inherit;"
               >
-                <a class="nav-link" href="./about.html">
+                <a
+                  class="nav-link active-nav active-nav--color"
+                  href="./about.html"
+                >
                   About
                 </a>
               </li>
@@ -97,10 +100,7 @@
                 class="nav-item nav-item--font--margin regularnavItems"
                 style="display: inherit;"
               >
-                <a
-                  class="nav-link active-nav active-nav--color"
-                  href="./contact.html"
-                >
+                <a class="nav-link" href="./contact.html">
                   Contact Us
                 </a>
               </li>
@@ -119,104 +119,20 @@
       </nav>
     </div>
 
-    <!-- Contact contents -->
-    <div class="card mb-3 contactCard">
-      <div class="row no-gutters">
-        <div class="col-md-6">
-          <div class="card-body">
-            <p><b>Address</b></p>
-            <p>
-              #1A, 10th Cross, 11th Main Rd, HAL 2nd Stage, <br />Bengaluru,
-              Karnataka 560008
-            </p>
-            <p><b>For general enquiries</b></p>
-            <p>contact@aaainc.in</p>
-            <p><b>For job opportunitiess</b></p>
-            <p>careers@aaainc.in</p>
-            <br />
-            <div class="contactForm">
-              <p>
-                Please drop a message below if you like to discuss a project
-                with us
-              </p>
-              <form action="">
-                <div class="row">
-                  <div class="col-md-6">
-                    <div class="form-group row">
-                      <label
-                        for="colFormLabelSm"
-                        class="col-sm-2 col-form-label col-form-label-sm"
-                        >Name</label
-                      >
-                      <div class="col-sm-10">
-                        <input
-                          type="text"
-                          class="form-control form-control-sm"
-                          id="colFormLabelSm"
-                          placeholder="Name"
-                        />
-                      </div>
-                    </div>
-                    <div class="form-group row">
-                      <label
-                        for="colFormLabelSm"
-                        class="col-sm-2 col-form-label col-form-label-sm"
-                        >Email</label
-                      >
-                      <div class="col-sm-10">
-                        <input
-                          type="email"
-                          class="form-control form-control-sm"
-                          id="colFormLabelSm"
-                          placeholder="Email"
-                        />
-                      </div>
-                    </div>
-                    <div class="form-group row">
-                      <label
-                        for="colFormLabelSm"
-                        class="col-sm-2 col-form-label col-form-label-sm"
-                        >Mobile</label
-                      >
-                      <div class="col-sm-10">
-                        <input
-                          type="number"
-                          class="form-control form-control-sm"
-                          id="colFormLabelSm"
-                          placeholder="Mobile"
-                        />
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-6">
-                    <div class="form-group">
-                      <textarea
-                        class="form-control"
-                        id="exampleFormControlTextarea1"
-                        rows="3"
-                        placeholder="Message"
-                      ></textarea>
-                      <button
-                        type="submit"
-                        class="btn btn-primary btn-sm submitButton"
-                      >
-                        Submit
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <img
-            src="https://res.cloudinary.com/ajithvault/image/upload/v1575606561/AAA/map_duxksz.png"
-            class="card-img"
-            alt="..."
-          />
-        </div>
-      </div>
+    <div id="about">
+      <h1>About</h1>
+      <div id="vl"></div>
+      <p>
+        It is a long established fact that a reader will be distracted by the
+        readable content of a page when looking at its layout. The point of
+        using Lorem Ipsum is that it has a more-or-less normal distribution of
+        letters, as opposed to using 'Content here, content here', making it
+        look like readable English. Many desktop publishing packages and web
+        page editors now use Lorem Ipsum as their default model text, and a
+        search for 'lorem ipsum' will uncover many web sites still in their
+        infancy. Various versions have evolved over the years, sometimes by
+        accident, sometimes on purpose (injected humour and the like).
+      </p>
     </div>
   </body>
 </html>
