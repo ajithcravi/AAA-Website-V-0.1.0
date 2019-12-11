@@ -156,9 +156,8 @@ for (i = 0; i < staffDetails.length; i++) {
         alt="${staffDetails[i][j].name}"
       />
       <div class="teamOverlay">
-      <div class="card-body nameAndDesignation">
-      <p class="card-text name">${staffDetails[i][j].name} <br/>${staffDetails[i][j].designation}</p>
-    </div>
+      <p class="card-text nameAndDesignation">${staffDetails[i][j].name} <br/>${staffDetails[i][j].designation}</p>
+    
           </div>
       
     </div>`);
