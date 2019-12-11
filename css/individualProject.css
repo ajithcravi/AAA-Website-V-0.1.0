@@ -7,8 +7,8 @@
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin-left: 2.5%;
-  margin-right: 3%;
+  margin-left: 45px;
+  margin-right: 52px;
 }
 
 .gallery {
@@ -42,11 +42,6 @@
 }
 
 @media only screen and (max-width: 900px) {
-  .individualProject {
-    margin-left: 8%;
-    margin-right: 8%;
-  }
-
   .gallery {
     width: 100%;
     height: auto;

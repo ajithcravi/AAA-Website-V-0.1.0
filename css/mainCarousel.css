@@ -20,6 +20,10 @@
   border-radius: 100%;
 }
 
+.homeCarouselIndicator {
+  position: fixed;
+}
+
 /* This is to change the color of the active carousel indicator to the signature red */
 .homeCarouselIndicator .active {
   background-color: #ff0202;
