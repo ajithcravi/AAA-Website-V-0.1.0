@@ -2,7 +2,7 @@
 const staffDetails = [
   [
     {
-      name: "Asoka Babu Morla",
+      name: "Asoka Babu",
       designation: "Principal Architect",
       url:
         "http://res.cloudinary.com/ajithvault/image/upload/q_auto/v1575531511/AA%20Office%20Staff%20Photos%20Final/_01-ASOKA_BABU_MORLA_PRINCIPAL_ARCHITECT_tcv66t.jpg"
@@ -14,13 +14,13 @@ const staffDetails = [
         "http://res.cloudinary.com/ajithvault/image/upload/q_auto/v1575531511/AA%20Office%20Staff%20Photos%20Final/_02-NAGARAJU_KASANI_PRINCIPAL_ARCHITECT_by9kpv.jpg"
     },
     {
-      name: "Raja Srinivas Kandregula",
+      name: "Raja Srinivas",
       designation: "Principal Architect",
       url:
         "http://res.cloudinary.com/ajithvault/image/upload/q_auto/v1575531512/AA%20Office%20Staff%20Photos%20Final/_03-RAJA_SRINIVAS_KANDREGULA_PRINCIPAL_ARCHITECT_nafk6f.jpg"
     },
     {
-      name: "Rajendra Prasad Malineni",
+      name: "Rajendra Prasad",
       designation: "Principal Architect",
       url:
         "http://res.cloudinary.com/ajithvault/image/upload/q_auto/v1575531511/AA%20Office%20Staff%20Photos%20Final/_04-RAJENDRA_PRASAD_MALINENI_PRINCIPAL_ARCHITECT_u36lqv.jpg"
@@ -157,8 +157,7 @@ for (i = 0; i < staffDetails.length; i++) {
       />
       <div class="teamOverlay">
       <div class="card-body nameAndDesignation">
-      <p class="card-text name">${staffDetails[i][j].name} <br/>
-      <span class="designation">${staffDetails[i][j].designation}</span></p>
+      <p class="card-text name">${staffDetails[i][j].name} <br/>${staffDetails[i][j].designation}</p>
     </div>
           </div>
       
