@@ -43,7 +43,6 @@
   left: 30%;
   padding: 0;
   margin-top: 1.5%;
-  x-webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: left;
