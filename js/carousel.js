@@ -77,5 +77,13 @@ addImagesToCarousel = object => {
   }
 };
 
+document.addEventListener("keypress", event => {
+  if (event.keyCode === 39) {
+    $("#nextButton").click();
+  } else if (event.keyCode === 37) {
+    $("#previousButton").click();
+  }
+});
+
 // Each element from the 'carouselImageData' array is mapped and the 'addImagesToCarousel'function is performed
 carouselImageData.map(addImagesToCarousel);

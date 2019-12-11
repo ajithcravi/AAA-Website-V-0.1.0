@@ -16,12 +16,6 @@ body {
   padding-right: 5px;
 }
 
-/* Assigning padding top and bottom of the navbar to 0 */
-/* .navbar--paddingTopAndBottom-0 {
-  padding-top: 0;
-  padding-bottom: 0;
-} */
-
 /* Logo dimension */
 .navbar-brand__logo--size {
   max-height: 35px;
