@@ -35,11 +35,10 @@
   position: absolute;
   display: inherit;
   color: white;
-  top: 0;
-  left: 0;
-  padding: 0;
-  margin-top: 1.5%;
-  margin-left: 5%;
+  top: 50%;
+  left: 5%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
   text-align: left;
   transition: 0.5s ease;
 }
@@ -57,12 +56,14 @@
   }
 
   .nameAndDesignation {
+    position: absolute;
     display: inherit;
     color: white;
-    padding: 0;
-    margin-top: 1.5%;
-    margin-left: 5%;
-    top: 10%;
-    left: 10%;
+    top: 50%;
+    left: 5%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    text-align: left;
+    transition: 0.5s ease;
   }
 }
