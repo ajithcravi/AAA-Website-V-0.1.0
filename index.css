@@ -11,7 +11,7 @@ body {
 }
 
 /* Navigationbar background color changed to white */
-.mainContainer--colour-grey--paddingRight-5px {
+.mainContainer--colour-white--paddingRight-5px {
   background-color: #ffffff;
   padding-right: 5px;
 }
