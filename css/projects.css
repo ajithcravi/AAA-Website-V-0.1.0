@@ -26,8 +26,8 @@
   right: 0em;
   left: 0em;
   bottom: 0em;
-  opacity: 80%;
   background-color: #212121;
+  opacity: 80%;
   height: 0;
   transition: 0.5s ease;
 }
@@ -87,8 +87,8 @@
   right: 0em;
   left: 0em;
   bottom: 0em;
-  opacity: 80%;
   background-color: #212121;
+  opacity: 80%;
   height: 0;
   transition: 0.5s ease;
 }
