@@ -16,6 +16,12 @@ body {
   padding-right: 5px;
 }
 
+/* Giving 0 padding top and bottom to the navbar to match it with the top bar of chrome browser */
+.navbar {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
 /* Logo dimension */
 .navbar-brand__logo--size {
   max-height: 35px;
