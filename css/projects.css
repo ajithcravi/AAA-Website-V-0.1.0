@@ -43,7 +43,7 @@
 }
 
 .twoProjectTile:hover .twoProjectOverlay {
-  height: 4em;
+  height: 4rem;
 }
 
 .twoProjectTile:hover .twoProjectTitle {
@@ -104,7 +104,7 @@
 }
 
 .threeProjectTile:hover .threeProjectOverlay {
-  height: 4em;
+  height: 4rem;
 }
 
 .threeProjectTile:hover .threeProjectTitle {

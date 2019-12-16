@@ -502,7 +502,7 @@ const projectDetails = [
 
 renderProjectTiles = () => {
   for (i = 0; i < projectDetails.length; i++) {
-    if (i === 0 || i === 5 || i === 10 || i === 15) {
+    if (i === 0 || i === 5 || i === 10 || i === 15 || i === 20 || i === 25) {
       $("#projectTilesContainer").append(
         `<div id="twoProjectRow${i}" class="twoProjectRow">
       <div class="card twoProjectTile">
@@ -518,7 +518,14 @@ renderProjectTiles = () => {
     </div>
     </div>`
       );
-    } else if (i === 1 || i === 6 || i === 11 || i === 16) {
+    } else if (
+      i === 1 ||
+      i === 6 ||
+      i === 11 ||
+      i === 16 ||
+      i === 21 ||
+      i === 26
+    ) {
       $(`#twoProjectRow${i - 1}`).append(
         `
       <div class="card twoProjectTile">
@@ -533,7 +540,14 @@ renderProjectTiles = () => {
       </div>
     </div>`
       );
-    } else if (i === 2 || i === 7 || i === 12 || i === 17) {
+    } else if (
+      i === 2 ||
+      i === 7 ||
+      i === 12 ||
+      i === 17 ||
+      i === 22 ||
+      i === 27
+    ) {
       $("#projectTilesContainer").append(
         `<div id="threeProjectRow${i}" class="threeProjectRow">
       <div class="card threeProjectTile">
@@ -551,7 +565,14 @@ renderProjectTiles = () => {
           </div>
           </div>`
       );
-    } else if (i === 3 || i === 8 || i === 13 || i === 18) {
+    } else if (
+      i === 3 ||
+      i === 8 ||
+      i === 13 ||
+      i === 18 ||
+      i === 23 ||
+      i === 28
+    ) {
       $(`#threeProjectRow${i - 1}`).append(`<div class="card threeProjectTile">
             <img
             class="card-img-top threeProjectRowImage"
@@ -563,7 +584,14 @@ renderProjectTiles = () => {
           <div class="threeProjectTitle">${projectDetails[i].projectName}</div>
           </div>
         </div>`);
-    } else if (i === 4 || i === 9 || i === 14 || i === 19) {
+    } else if (
+      i === 4 ||
+      i === 9 ||
+      i === 14 ||
+      i === 19 ||
+      i === 24 ||
+      i === 29
+    ) {
       $(`#threeProjectRow${i - 2}`).append(`<div class="card threeProjectTile">
             <img
             class="card-img-top threeProjectRowImage"
