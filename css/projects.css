@@ -43,7 +43,7 @@
 }
 
 .twoProjectTile:hover .twoProjectOverlay {
-  height: 4em;
+  height: 4.2em;
 }
 
 .twoProjectTile:hover .twoProjectTitle {
@@ -150,6 +150,7 @@
 
   .twoProjectOverlay {
     height: 2em;
+    opacity: 50%;
   }
 
   .twoProjectTitle {
@@ -160,11 +161,12 @@
 
   .threeProjectOverlay {
     height: 2em;
-    color: white;
-    text-align: center;
+    opacity: 50%;
   }
 
   .threeProjectTitle {
     display: block;
+    color: white;
+    text-align: center;
   }
 }
