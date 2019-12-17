@@ -4,61 +4,61 @@ let flag = 0;
 // List of images to be included in carousel. Hardcoded
 let carouselImageData = [
   {
-    name: 1,
+    name: 0,
     projectName: "AIS Bungalows",
     url:
       "https://res.cloudinary.com/dpm4kxo9p/image/upload/q_auto/v1576493911/HOME_PAGE/01_AIS_Bungalows_b8odz8.jpg"
   },
   {
-    name: 2,
+    name: 1,
     projectName: "AIS Bungalows",
     url:
       "https://res.cloudinary.com/dpm4kxo9p/image/upload/q_auto/v1576493911/HOME_PAGE/02_AIS_Bungalows_puzkkg.jpg"
   },
   {
-    name: 3,
+    name: 2,
     projectName: "The Address Club House",
     url:
       "https://res.cloudinary.com/dpm4kxo9p/image/upload/q_auto/v1576494093/HOME_PAGE/03_The_Address_Club_House-min_n6z5mj.jpg"
   },
   {
-    name: 4,
+    name: 3,
     projectName: "SSD Mixed Use Building",
     url:
       "https://res.cloudinary.com/dpm4kxo9p/image/upload/q_auto/v1576494131/HOME_PAGE/04_SDD_Mixed_Use_Bldg-min_p8o28m.jpg"
   },
   {
-    name: 5,
+    name: 4,
     projectName: "KBR Siri Orchid",
     url:
       "https://res.cloudinary.com/dpm4kxo9p/image/upload/q_auto/v1576494530/HOME_PAGE/05_KBR_Siri_Orchid_p1r9pi.jpg"
   },
   {
-    name: 6,
+    name: 5,
     projectName: "Tejo Murthy Appartments",
     url:
       "https://res.cloudinary.com/dpm4kxo9p/image/upload/q_auto/v1576493910/HOME_PAGE/06_Tejo_Murthy_Apartments_yxier1.jpg"
   },
   {
-    name: 7,
+    name: 6,
     projectName: "Kindergarten School",
     url:
       "https://res.cloudinary.com/dpm4kxo9p/image/upload/q_auto/v1576493911/HOME_PAGE/07_Kindergarten_School_q5m9jn.jpg"
   },
   {
-    name: 8,
+    name: 7,
     projectName: "KBR Anu Orchid",
     url:
       "https://res.cloudinary.com/dpm4kxo9p/image/upload/q_auto/v1576494228/HOME_PAGE/08_KBR_Anu_Orchid-min_ykxn6g.jpg"
   },
   {
-    name: 9,
+    name: 8,
     projectName: "Duplex Villas",
     url:
       "https://res.cloudinary.com/dpm4kxo9p/image/upload/q_auto/v1576493910/HOME_PAGE/09_Duplex_Villas_cbjlsj.jpg"
   },
   {
-    name: 10,
+    name: 9,
     projectName: "KBR Amulya Orchid",
     url:
       "https://res.cloudinary.com/dpm4kxo9p/image/upload/q_auto/v1576494250/HOME_PAGE/10_KBR_Amulya_Orchid_spsea8.jpg"
