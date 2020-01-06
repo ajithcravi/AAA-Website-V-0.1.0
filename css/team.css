@@ -25,11 +25,10 @@
 
 .nameAndDesignation {
   display: none;
-  font-size: 0.9rem;
 }
 
 .teamCard:hover .teamOverlay {
-  height: 20%;
+  height: 15%;
 }
 .teamCard:hover .nameAndDesignation {
   position: absolute;

@@ -162,7 +162,7 @@ for (i = 0; i < staffDetails.length; i++) {
         alt="${staffDetails[i][j].name}"
       />
       <div class="teamOverlay">
-      <p class="card-text nameAndDesignation">${staffDetails[i][j].name} | ${staffDetails[i][j].designation}</p>
+      <p class="card-text nameAndDesignation">${staffDetails[i][j].name} <span style="color:#ff0202"> | </span> <span style="color:#9E9E9E">${staffDetails[i][j].designation}</span></p>
     
           </div>
       

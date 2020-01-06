@@ -8,6 +8,13 @@ body {
   padding: 0px;
   overflow-x: hidden;
   font-family: Helvetica !important;
+  font-size: 0.9rem;
+}
+
+/* Making the corner of the images sharp */
+.card,
+.card img{
+  border-radius: 0%;
 }
 
 /* Navigationbar background color changed to white */
@@ -31,7 +38,6 @@ body {
 /* Navigationbar items */
 .nav-item--font--margin {
   font-family: Helvetica !important;
-  font-size: 0.9rem;
   margin-left: 0.5rem;
   margin-top: 23px;
 }
