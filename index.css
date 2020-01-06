@@ -31,7 +31,8 @@ body {
 /* Navigationbar items */
 .nav-item--font--margin {
   font-family: Helvetica !important;
-  margin-left: 1em;
+  font-size: 0.9rem;
+  margin-left: 0.5rem;
   margin-top: 23px;
 }
 

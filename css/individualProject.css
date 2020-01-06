@@ -39,6 +39,16 @@
 
 .projectDescription {
   width: 23%;
+  border: none;
+}
+
+.card-body h3{
+  color: #616161;
+}
+
+.card-body{
+  color: #9E9E9E;
+  font-size: 0.9rem;
 }
 
 @media only screen and (max-width: 900px) {

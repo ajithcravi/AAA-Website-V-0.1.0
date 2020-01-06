@@ -29,7 +29,7 @@
     <!-- Main carousel stylesheet -->
     <link rel="stylesheet" href="./css/mainCarousel.css" />
   </head>
-  <body>
+  <body onload="scrollWin()">
     <!-- Navigationbar -->
     <div
       class="container-fluid mainContainer--colour-white--paddingRight-5px sticky-top"
@@ -136,5 +136,6 @@
 
     <!-- Main carousel javascript -->
     <script src="./js/carousel.js"></script>
+    <script> window.scrollBy(0, 1000);</script>
   </body>
 </html>
