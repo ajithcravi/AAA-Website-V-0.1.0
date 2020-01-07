@@ -13,7 +13,7 @@ body {
 
 /* Making the corner of the images sharp */
 .card,
-.card img{
+.card img {
   border-radius: 0%;
 }
 
