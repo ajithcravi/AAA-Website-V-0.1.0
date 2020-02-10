@@ -108,6 +108,12 @@ const staffDetails = [
   ],
   [
     {
+      name: "Aishwarya",
+      designation: "Intern",
+      url:
+        "https://res.cloudinary.com/ajithvault/image/upload/v1581315722/AA%20Office%20Staff%20Photos%20Final/AISHWARYA_S_INTERN_pogjem.jpg"
+    },
+    {
       name: "George",
       designation: "Intern",
       url:
@@ -148,6 +154,18 @@ const staffDetails = [
       designation: "Intern",
       url:
         "http://res.cloudinary.com/ajithvault/image/upload/q_auto/v1575531506/AA%20Office%20Staff%20Photos%20Final/00_06_VARDHINI_D_INTERN_e9iwwj.jpg"
+    },
+    {
+      name: "Vinay",
+      designation: "Intern",
+      url:
+        "https://res.cloudinary.com/ajithvault/image/upload/v1581315710/AA%20Office%20Staff%20Photos%20Final/VINAY_V_PROJECT_ARCHITECT_xtxhst.jpg"
+    },
+    {
+      name: "Yaseen",
+      designation: "Intern",
+      url:
+        "https://res.cloudinary.com/ajithvault/image/upload/v1581315701/AA%20Office%20Staff%20Photos%20Final/yaseen_PK_Intern_sh4dyn.jpg"
     }
   ]
 ];
@@ -163,9 +181,9 @@ for (i = 0; i < staffDetails.length; i++) {
       />
       <div class="teamOverlay">
       <p class="card-text nameAndDesignation">${staffDetails[i][j].name} <span style="color:#ff0202"> | </span> <span style="color:#9E9E9E">${staffDetails[i][j].designation}</span></p>
-    
+
           </div>
-      
+
     </div>`);
   }
 }
