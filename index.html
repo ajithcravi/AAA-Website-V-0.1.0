@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>AAA | Home</title>
+    <link rel="preload" href="https://res.cloudinary.com/ajithvault/image/upload/q_auto/v1575434482/AAA/AAA_Logo_2019_For_Email_Signs_vepg8b.png" as="style" />
     <link
       rel="icon"
       href="https://res.cloudinary.com/ajithvault/image/upload/q_auto/v1575434482/AAA/AAA_Logo_2019_For_Email_Signs_vepg8b.png"
@@ -12,6 +13,7 @@
       sizes="16x16"
     />
     <!-- Bootstrap link -->
+    <link rel="preload" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" as="style" />
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
@@ -25,8 +27,10 @@
     ></script>
     <!-- Custom stylesheets -->
     <!-- Overall stylesheet -->
+    <link rel="preload" href="index.css" as="style" />
     <link rel="stylesheet" href="index.css" />
     <!-- Main carousel stylesheet -->
+    <link rel="preload" href="./css/mainCarousel.css" as="style" />
     <link rel="stylesheet" href="./css/mainCarousel.css" />
   </head>
   <body onload="scrollWin()">
@@ -38,7 +42,7 @@
         <div class="container-fluid">
           <a class="navbar-brand" href="index.html">
             <img
-              class="navbar-brand__logo--size"
+              class="navbar-brand__logo--size lozad"
               src="https://res.cloudinary.com/dpm4kxo9p/image/upload/v1575700408/AAA_Logo_2019_Final__05-12-19_03_ltn45f.jpg"
               alt="AAA Logo"
             />
@@ -138,5 +142,9 @@
     <script>
       window.scrollBy(0, 1000);
     </script>
+      <script>
+        const observer = lozad(); // lazy loads elements with default selector as ".lozad"
+        observer.observe();
+      </script>
   </body>
 </html>
